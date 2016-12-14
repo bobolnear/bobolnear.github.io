@@ -19,7 +19,7 @@
     <link href="./css/custom.min.css" rel="stylesheet">
   </head>
 
-  <body class="nav-md">
+  <body class="nav-md footer_fixed">
     <div class="container body">
       <div class="main_container">
         <div class="col-md-3 left_col">
@@ -51,19 +51,23 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i>主页<span class="fa fa-chevron-down pull-right"></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
+                      <li><a href="index.html">ABout Me</a></li>
+                      <li><a href="index2.html">JAVA</a></li>
+                      <li><a href="index2.html">JS</a></li>
+                      <li><a href="index2.html">DataBase</a></li>
+                      <li><a href="index3.html">ABAP</a></li>
+                      <li><a href="index3.html">PI</a></li>
+                      <li><a href="index3.html">闲谈</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> 近期 <span class="fa fa-chevron-down"></span></span><span class="label label-danger pull-right">2</span></a>
+                  <li><a id="doc_last"><i class="fa fa-edit"></i> 近期 <span class="fa fa-chevron-down"></span></span><span class="label label-danger pull-right">2</span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">General Form</a></li>
-                      <li><a href="form_advanced.html">Advanced Components</a></li>
-                      <li><a href="form_validation.html">Form Validation</a></li>
-                      <li><a href="form_wizards.html">Form Wizard</a></li>
-                      <li><a href="form_upload.html">Form Upload</a></li>
-                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                      <li><a href="index2.html">JAVA</a></li>
+                      <li><a href="index2.html">JS</a></li>
+                      <li><a href="index2.html">DataBase</a></li>
+                      <li><a href="index3.html">ABAP</a></li>
+                      <li><a href="index3.html">PI</a></li>
+                      <li><a href="index3.html">闲谈</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -168,7 +172,7 @@
                             <div class="byline">
                               <span>1小时之前</span> by <a href='mailto:bobolnear@163.com'>恒心动力</a>
                             </div>
-                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="index_md.html">Read&nbsp;More</a>
                             </p>
                           </div>
                         </div>
@@ -252,4 +256,7 @@
 
 <script type="text/javascript">
 console.log("Copyright 2016 恒心动力. AllRights Reserved.");
+$(document).ready(function() {
+	$("#doc_last").click();
+});
 </script>
