@@ -17,6 +17,15 @@
 
 <!-- Custom Theme Style -->
 <link href="./css/custom.min.css" rel="stylesheet">
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?155dd0ea315603525c4287b86a8aeb59";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
 </head>
 
 <body class="nav-md footer_fixed">
@@ -148,7 +157,9 @@
 					<div class="x_panel">
 						<div class="x_title">
 							<h2>
-								<i class="fa fa-user"></i><span><a href='mailto:bobolnear@163.com'>恒心动力</a></span><small><i class="fa fa-tags"></i> <a>github</a> <a>阿里云平台</a> <a>万网</a></small>
+								<i class="fa fa-user"></i><span><a
+									href='mailto:bobolnear@163.com'>恒心动力</a></span><small><i
+									class="fa fa-tags"></i> <a>github</a> <a>阿里云平台</a> <a>万网</a></small>
 							</h2>
 							<ul class="nav navbar-right panel_toolbox">
 								<li><a class="collapse-link"><i
@@ -179,24 +190,27 @@
 								</div>
 								<!-- info row -->
 								<div class="row invoice-info">
-									
+
 									<!-- /.col -->
 									<div class="col-sm-12 invoice-col">
 										<div id="test-editormd-view"></div>
 									</div>
-									
+
 									<!-- /.col -->
 								</div>
 								<!-- /.row -->
-
-								
 						</div>
 						<!-- /page content -->
 
 						<!-- footer content -->
 						<footer>
 							<div class="pull-right">
-								<a href="mailto:bobolnear@163.com"> Copyright 2016 恒心动力.
+								<a target="_blank"
+									href="http://tongji.baidu.com/web/22838000/overview/index?siteId=10198520">
+									本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span
+									id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span
+									id="busuanzi_value_page_pv"></span>次
+								</a> <a href="mailto:bobolnear@163.com"> Copyright 2016 恒心动力.
 									AllRights Reserved. </a>
 							</div>
 							<div class="clearfix"></div>
@@ -223,46 +237,48 @@
 	});
 </script>
 
-        <script src="./editor/js/lib/marked.min.js"></script>
-        <script src="./editor/js/lib/prettify.min.js"></script>
-        
+<script src="./editor/js/lib/marked.min.js"></script>
+<script src="./editor/js/lib/prettify.min.js"></script>
 
-        <script src="./editor/js/editormd.js"></script>
-        <script type="text/javascript">
-            $(function() {
-            	var query_id = window.location.search;
-                var testEditormdView, testEditormdView2;
-                $.get(query_id.split("=")[1], function(markdown) {
-                    
-				    testEditormdView = editormd.markdownToHTML("test-editormd-view", {
-                        markdown        : markdown ,//+ "\r\n" + $("#append-test").text(),
-                        htmlDecode      : false,       // 开启 HTML 标签解析，为了安全性，默认不开启
-                        htmlDecode      : "style,script,iframe",  // you can filter tags decode
-                        //toc             : false,
-                        tocm            : true,    // Using [TOCM]
-                        //tocContainer    : "#custom-toc-container", // 自定义 ToC 容器层
-                        //gfm             : false,
-                        //tocDropdown     : true,
-                        // markdownSourceCode : true, // 是否保留 Markdown 源码，即是否删除保存源码的 Textarea 标签
-                        emoji           : false,
-                        taskList        : false,
-                        tex             : false,  // 默认不解析
-                        flowChart       : false,  // 默认不解析
-                        sequenceDiagram : false,  // 默认不解析
-                    });
-                    
-                    //console.log("返回一个 jQuery 实例 =>", testEditormdView);
-                    
-                    // 获取Markdown源码
-                    //console.log(testEditormdView.getMarkdown());
-                    
-                    //alert(testEditormdView.getMarkdown());
-                });
-                    
-                
-            });
-        </script>
+
+<script src="./editor/js/editormd.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var query_id = window.location.search;
+		var testEditormdView, testEditormdView2;
+		$.get(query_id.split("=")[1], function(markdown) {
+
+			testEditormdView = editormd.markdownToHTML("test-editormd-view", {
+				markdown : markdown,//+ "\r\n" + $("#append-test").text(),
+				htmlDecode : false, // 开启 HTML 标签解析，为了安全性，默认不开启
+				htmlDecode : "style,script,iframe", // you can filter tags decode
+				//toc             : false,
+				tocm : true, // Using [TOCM]
+				//tocContainer    : "#custom-toc-container", // 自定义 ToC 容器层
+				//gfm             : false,
+				//tocDropdown     : true,
+				// markdownSourceCode : true, // 是否保留 Markdown 源码，即是否删除保存源码的 Textarea 标签
+				emoji : false,
+				taskList : false,
+				tex : false, // 默认不解析
+				flowChart : false, // 默认不解析
+				sequenceDiagram : false, // 默认不解析
+			});
+
+			//console.log("返回一个 jQuery 实例 =>", testEditormdView);
+
+			// 获取Markdown源码
+			//console.log(testEditormdView.getMarkdown());
+
+			//alert(testEditormdView.getMarkdown());
+		});
+
+	});
+</script>
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2121792"></script>
+<script type="text/javascript"
+	src="http://v2.uyan.cc/code/uyan.js?uid=2121792"></script>
 <!-- UY END -->
+<script async
+	src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
