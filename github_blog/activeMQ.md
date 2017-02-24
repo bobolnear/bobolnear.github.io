@@ -160,6 +160,7 @@ By [rambo](http://hengxindongli.cn)
 </beans>
 ```
 - 资源文件
+
 ```
 #以下为设置
 #发送队列的名 一般是当前系统的名
