@@ -13,13 +13,13 @@ By [rambo](http://hengxindongli.cn)
 ## 二、技术经验
 - 前端：Dojo、AngularJs、ExtJs、Jquery、Bootstrap、EasyUI、Vuejs、ReactJs、Iconic、SeaJs
 - 后端：Java（SpringMvc、SpringSecurity、Struts1.x、Struts2.x、Hibernate、Ibatis、MyBatis、JPA、Shiro）
-- 脚本：PHP、Python
+- 脚本：PHP(ecshop、thinkPhp)、Python(pandas、tushare、sqlalchemy)
 - 数据库：Redis、Mysql、Oracle、MsSql、MongoDb
 - 操作系统：Windows、CentOS、Mac OS
 - 分布式框架：Dubbox
 - 消息框架：ActiveMQ、RocketMQ、redission-MQ
 - 其他：Nginx、Git、Maven、Haproxy、Hadoop、Spark、ZooKeeper、ElasticSearch
-
+- 正研究：scala
 ## 三、常见架构
 - 基于SOA设计
 ![](./my_cv01.png)
